@@ -75,14 +75,6 @@ else if (posicion >= 98 and posicion <101){
 - **`noTone(pin)`** stops the buzzer from making a sound.
 ---
 
-### Issues in the Code:
-1. **Redundant `Serial.begin` inside `loop`:**
-   - `Serial.begin(posicion)` is incorrect. It should be removed, as `Serial.begin(9600)` is only needed once in `setup`.
-
-2. **Optional Improvement:**
-   - Replace `and` with `&&` for logical AND to match standard C++ conventions.
-
----
 
 ### What It Does:
 - **Reads a potentiometer's position.**
