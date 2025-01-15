@@ -90,4 +90,3 @@ else if (posicion >= 98 and posicion <101){
 - **Generates corresponding musical notes using a piezo buzzer.**
 - **Displays the potentiometer's scaled position on the serial monitor.**
 
-Would you like further clarification or improvements to the code?
